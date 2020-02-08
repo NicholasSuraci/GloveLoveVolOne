@@ -12,6 +12,9 @@ body
   color: #cdcdcd;
   font-family: "Avenir Next", "Avenir", sans-serif;
   height: 100vh;
+  background-image: linear-gradient(to right bottom, #fc466b, #3f5efb);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #menuToggle
@@ -201,6 +204,7 @@ body
                          "header header main"
                          "footer footer footer";
     grid-gap: 1rem;
+    background-color: transparent;
   }
   
   .header {
@@ -248,7 +252,7 @@ body
     text-align: center;
   }
   
-  @media (max-width: 1000px) {
+  @media (max-width: 1300px) {
     .parent {
       grid-template-columns: 1fr;
       grid-template-rows: 1fr 1fr 1fr;
@@ -299,16 +303,19 @@ body
       grid-template-columns: repeat(3, 1fr);
       grid-gap: 1rem;
       margin-top: 8rem;
+      background-image: linear-gradient(to right bottom, #fc466b, #3f5efb);
 
   }
 
   @media screen and (max-width: 900px){
       .row{
           grid-template-columns: 1fr;
+          grid-gap: 0;
           
       }
   }
 
   .container img{
       width: 100%;
+      border-radius: 5px;
   }
