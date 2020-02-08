@@ -11,10 +11,9 @@ body
   background: #eeeeee;
   color: #cdcdcd;
   font-family: "Avenir Next", "Avenir", sans-serif;
-  height: 100vh;
-  background-image: linear-gradient(to right bottom, #fc466b, #3f5efb);
-  background-size: cover;
-  background-repeat: no-repeat;
+  
+  background: linear-gradient(to right bottom, #fc466b, #3f5efb);
+
 }
 
 #menuToggle
@@ -276,17 +275,17 @@ body
       flex-direction: column;
       justify-content: space-between;
       align-items: center;
-      padding: 5rem;
+      padding: 2rem;
   }
 
   .phone{
-      margin-top: 5rem;
+      margin-top: 2rem;
       color: black;
       text-decoration: none;
   }
 
   .about-container{
-      padding: 1rem 5rem;
+      padding: 1rem 2rem;
   }
 
   p{
