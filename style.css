@@ -11,6 +11,7 @@ body
   background: #eeeeee;
   color: #cdcdcd;
   font-family: "Avenir Next", "Avenir", sans-serif;
+  height: 100vh;
   
   background: linear-gradient(to right bottom, #fc466b, #3f5efb);
 
